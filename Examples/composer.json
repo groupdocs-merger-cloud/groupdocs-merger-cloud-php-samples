@@ -1,0 +1,5 @@
+{
+    "require": {
+        "groupdocscloud/groupdocs-merger-cloud": "19.10"
+    }
+}
