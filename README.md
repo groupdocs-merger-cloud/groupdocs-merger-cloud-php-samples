@@ -26,17 +26,9 @@ The package contains PHP examples. Follow the given steps to proceed run:
 * Execute "composer update" command
 * Run examples using "php .\RunExamples.php" command
 
-For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/mergercloud/Getting+Started).
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/merger/getting-started/).
 
 ## Licensing
 All GroupDocs.Merger Cloud SDKs are licensed under [MIT License](LICENSE).
 
-## Resources
-+ [**Website**](https://www.groupdocs.cloud)
-+ [**Product Home**](https://products.groupdocs.cloud/merger)
-+ [**Documentation**](https://docs.groupdocs.cloud/display/mergercloud/Home)
-+ [**Free Support Forum**](https://forum.groupdocs.cloud/c/merger)
-+ [**Blog**](https://blog.groupdocs.cloud/category/merger)
-
-## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/merger).
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/merger/php) | [Docs](https://docs.groupdocs.cloud/merger/) | [Demos](https://products.groupdocs.app/merger/family) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Source Code](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://purchase.groupdocs.cloud/trial)
