@@ -5,7 +5,7 @@ class CommonUtils {
 
     // TODO: Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required)
     static $ClientId = 'XXXX-XXXX-XXXX-XXXX';
-    static $ClientSecret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+    static $ClientSecret = 'XXXXXXXXXXXXXXXX';
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
 	static $MyStorage = 'First Storage';
 
@@ -73,7 +73,8 @@ class CommonUtils {
         // Seting the configurations
         $configuration->setAppSid(CommonUtils::$ClientId);
         $configuration->setAppKey(CommonUtils::$ClientSecret);
-
+        $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
+        
         // Retrun the new StorageApi instance
         return new GroupDocs\Merger\StorageApi($configuration);
     }
@@ -86,6 +87,7 @@ class CommonUtils {
         // Seting the configurations
         $configuration->setAppSid(CommonUtils::$ClientId);
         $configuration->setAppKey(CommonUtils::$ClientSecret);
+        $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
 
         // Retrun the new FolderApi instance
         return new GroupDocs\Merger\FolderApi($configuration);
@@ -99,6 +101,7 @@ class CommonUtils {
         // Seting the configurations
         $configuration->setAppSid(CommonUtils::$ClientId);
         $configuration->setAppKey(CommonUtils::$ClientSecret);
+        $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
 
         // Retrun the new FileApi instance
         return new GroupDocs\Merger\FileApi($configuration);

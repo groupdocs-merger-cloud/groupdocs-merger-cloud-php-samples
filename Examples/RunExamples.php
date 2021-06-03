@@ -7,6 +7,8 @@ include(__DIR__ . '\GetSupportedFileTypes.php');
 include(__DIR__ . '\GetDocumentInformation.php');
 include(__DIR__ . '\DocumentOperations\JoinMultipleDocuments.php');
 include(__DIR__ . '\DocumentOperations\JoinPagesFromVariousDocuments.php');
+include(__DIR__ . '\DocumentOperations\JoinDocumentsCrossFormat.php');
+include(__DIR__ . '\DocumentOperations\ImportAttachment.php');
 include(__DIR__ . '\DocumentOperations\PreviewDocument.php');
 include(__DIR__ . '\DocumentOperations\SplitDocument\SplitToMultiPageDocuments.php');
 include(__DIR__ . '\DocumentOperations\SplitDocument\SplitToSinglePages.php');
@@ -39,6 +41,12 @@ JoinMultipleDocuments::Run();
 
 // Join Pages From Various Documents
 JoinPagesFromVariousDocuments::Run();
+
+// Join multiple documents of various formats into one document.
+JoinDocumentsCrossFormat::Run();
+
+// Import attachment into pdf document
+ImportAttachment::Run();
 
 // Preview Document
 PreviewDocument::Run();

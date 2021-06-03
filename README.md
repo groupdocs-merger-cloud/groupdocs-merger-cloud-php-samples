@@ -1,4 +1,5 @@
-## GroupDocs.Merger Cloud SDK for PHP Examples
+# GroupDocs.Merger Cloud SDK for PHP Examples
+
 This repository contains [Examples](Examples) projects for [GroupDocs.Merger Cloud SDK for PHP](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php) to help you learn and write your own applications.
 
 
@@ -29,6 +30,7 @@ The package contains PHP examples. Follow the given steps to proceed run:
 For more details, visit  [Getting Started](https://docs.groupdocs.cloud/merger/getting-started/).
 
 ## Licensing
+
 All GroupDocs.Merger Cloud SDKs are licensed under [MIT License](LICENSE).
 
 [Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/merger/php) | [Docs](https://docs.groupdocs.cloud/merger/) | [Demos](https://products.groupdocs.app/merger/family) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Source Code](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://purchase.groupdocs.cloud/trial)
