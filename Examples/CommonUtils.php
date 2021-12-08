@@ -107,6 +107,20 @@ class CommonUtils {
         return new GroupDocs\Merger\FileApi($configuration);
     }
 
+	// Getting the Merger LicenseAPI API Instance
+    public static function GetLicenseApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Merger\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(CommonUtils::$ClientId);
+        $configuration->setAppKey(CommonUtils::$ClientSecret);
+        $configuration->setApiBaseUrl(CommonUtils::$ApiBaseUrl);
+
+        // Retrun the new LicenseApi instance
+        return new GroupDocs\Merger\LicenseApi($configuration);
+    }
+
     // Uploading sample files into storage
     public static function UploadResources() {
         $storageApi = self::GetStorageApiInstance();
