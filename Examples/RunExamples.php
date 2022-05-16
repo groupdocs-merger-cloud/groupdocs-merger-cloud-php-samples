@@ -6,6 +6,7 @@ include(__DIR__ . '\CommonUtils.php');
 include(__DIR__ . '\GetSupportedFileTypes.php');
 include(__DIR__ . '\GetDocumentInformation.php');
 include(__DIR__ . '\DocumentOperations\JoinMultipleDocuments.php');
+include(__DIR__ . '\DocumentOperations\JoinWordDocumentsContinous.php');
 include(__DIR__ . '\DocumentOperations\JoinPagesFromVariousDocuments.php');
 include(__DIR__ . '\DocumentOperations\JoinDocumentsCrossFormat.php');
 include(__DIR__ . '\DocumentOperations\ImportAttachment.php');
@@ -38,6 +39,9 @@ GetDocumentInformation::Run();
 
 // Join Multiple Documents
 JoinMultipleDocuments::Run();
+
+// Join word documents with continous mode
+JoinWordDocumentsContinous::Run();
 
 // Join Pages From Various Documents
 JoinPagesFromVariousDocuments::Run();
