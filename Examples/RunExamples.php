@@ -43,6 +43,9 @@ JoinMultipleDocuments::Run();
 // Join word documents with continous mode
 JoinWordDocumentsContinous::Run();
 
+// Join images
+JoinImages::Run();
+
 // Join Pages From Various Documents
 JoinPagesFromVariousDocuments::Run();
 
