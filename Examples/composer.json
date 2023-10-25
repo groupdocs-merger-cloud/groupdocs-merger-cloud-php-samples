@@ -2,6 +2,6 @@
     "name": "groupdocscloud/groupdocs-merger-cloud-sdk-examples",
     "description": "GroupDocs.Merger-Cloud SDK Examples",
     "require": {
-        "groupdocscloud/groupdocs-merger-cloud": "23.2"
+        "groupdocscloud/groupdocs-merger-cloud": "23.10"
     }
 }
