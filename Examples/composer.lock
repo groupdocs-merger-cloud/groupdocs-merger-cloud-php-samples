@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fbb0d8cc0890d38324dd7279529dbcd",
+    "content-hash": "1d616424dd0a69299067ff7b991a6e31",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-merger-cloud",
-            "version": "24.7",
+            "version": "24.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php.git",
-                "reference": "ffa33dc9360a7e117f144c7c0caf9a34ff763f02"
+                "reference": "47255fff3b1f9767aeb7f988d9746677b8f7a8d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-merger-cloud/groupdocs-merger-cloud-php/zipball/ffa33dc9360a7e117f144c7c0caf9a34ff763f02",
-                "reference": "ffa33dc9360a7e117f144c7c0caf9a34ff763f02",
+                "url": "https://api.github.com/repos/groupdocs-merger-cloud/groupdocs-merger-cloud-php/zipball/47255fff3b1f9767aeb7f988d9746677b8f7a8d1",
+                "reference": "47255fff3b1f9767aeb7f988d9746677b8f7a8d1",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php/issues",
-                "source": "https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php/tree/v24.7"
+                "source": "https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php/tree/v24.11"
             },
-            "time": "2024-07-24T07:42:07+00:00"
+            "time": "2024-11-28T08:07:14+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -193,16 +193,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8"
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +256,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
             },
             "funding": [
                 {
@@ -272,7 +272,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T10:29:17+00:00"
+            "time": "2024-10-17T10:06:22+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -596,16 +596,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1"
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
-                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +643,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
             },
             "funding": [
                 {
@@ -659,7 +659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:32:20+00:00"
+            "time": "2024-09-25T14:20:29+00:00"
         }
     ],
     "packages-dev": [],
